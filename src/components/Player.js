@@ -5,26 +5,32 @@ export default class Player extends Lightning.Component {
 
     static _template() {
         return {
+
             Bunny: {
-                w: 75, h: 75, pivotY: .5, rect: true, color: 0xff000000
-            },
+                w: 75, h: 75, pivotY: .5, rect: true, color: 0xff000000,
 
-            /**
-             * @todo:
-             * uncomment body and follow pattern to create
-             * and follow the pattern to create the rest
-             * of the bunny
-             *
-             * Also, create the craziest bunny and win
-             * the crazy bunny award
-             *
-             */
-
-            // Body: {
-            //     src: Utils.asset("bunny_sprite.png"),
-            //     texture: {w: 75, h: 67, x: 5, y: 5},
-            //     color: this.playerColor
-            // }
+                /**
+                 * @todo:
+                 * uncomment body and follow pattern to create
+                 * and follow the pattern to create the rest
+                 * of the bunny's body
+                 *
+                 * Also, create the craziest bunny and win
+                 * the crazy bunny award
+                 *
+                 */
+                // Body: {
+                //     src: Utils.asset("bunny_sprite.png"),
+                //     texture: {w: 75, h: 67, x: 5, y: 5},
+                //     color: this.playerColor
+                // },
+                // LegLeft: {
+                //     src: Utils.asset("bunny_sprite.png"),
+                //     texture: {x: 5, y: 89, w: 11, h: 29},
+                //     x: 15, y: 50
+                // },
+                // // etc..
+            }
         };
     }
 
