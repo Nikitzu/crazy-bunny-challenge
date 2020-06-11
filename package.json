@@ -1,0 +1,7 @@
+{
+  "name": "com.lightning.training",
+  "description": "Training",
+  "dependencies": {
+    "wpe-lightning-sdk": "github:rdkcentral/Lightning-SDK#f0eefff75561f4aa3fde0ebd3415edc9e61e2ee0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Platformer",
+  "identifier": "com.metrological.app.Platformer",
+  "version": "1.0.0",
+  "icon": "./static/icon.png"
+}
